@@ -1,0 +1,14 @@
+{
+    "name": "Sub API",
+    "version": 2,
+    "builds":   [
+        {
+            "src": "*py", "use": "@kt128/fastapi"
+        }
+    ],
+    "routes": [
+        {
+            "src": "(.*)", "dest": "app.py"
+        }
+    ]
+}
