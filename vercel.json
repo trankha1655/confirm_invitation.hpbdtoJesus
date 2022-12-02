@@ -3,7 +3,7 @@
     "version": 2,
     "builds":   [
         {
-            "src": "*py", "use": "@kt128/fastapi"
+            "src": "*py", "use": "@now/python"
         }
     ],
     "routes": [
